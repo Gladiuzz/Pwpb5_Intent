@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ninjaActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/unnamed"
+            android:layout_marginVertical="12dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Richard Tyler Blevins[1] (born June 5, 1991), more commonly known by his online alias Ninja (formerly NinjasHyper), is an American streamer, YouTuber, professional gamer, and Internet personality. As of July 2019, he is the most followed streamer on Twitch with over fourteen million followers and an average of over 50,000 viewers per week.[3][4] On August 1, 2019, Blevins announced he was cutting ties with Twitch and moving to Mixer.[5][6] "
+        android:textAlignment="inherit"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/ninja_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="For more ninja information"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"/>
+</LinearLayout>

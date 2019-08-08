@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/atas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="25dp"
+        android:text="Anda berhasil masuk layout 4"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/atas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atas1"
+        android:layout_centerHorizontal="true"
+        android:text="Tekan Tombol untuk melanjutkan"
+        android:textSize="12dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/lay_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atas2"
+        android:layout_marginVertical="20dp"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:id="@+id/frame1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/unnamed" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_toRightOf="@+id/frame1"
+            android:text="Ninja"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/ninja"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/frame1"
+            android:background="@android:color/holo_red_light"
+            android:text="See More"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lay_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_1"
+        android:layout_marginVertical="20dp"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ed1254661812415b0d977d9dac9" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_toRightOf="@+id/frame2"
+            android:text="Shroud"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/shroud"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/frame2"
+            android:background="@android:color/holo_red_light"
+            android:text="See More"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

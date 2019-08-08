@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ninjaActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ed1254661812415b0d977d9dac9"
+            android:layout_marginVertical="12dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Michael Grzesiek (born June 2, 1994), professionally known as shroud, is a Polish-Canadian Twitch streamer and former professional Counter-Strike: Global Offensive (CS:GO) player. He is known for playing PlayerUnknown's Battlegrounds, Counter-Strike: Global Offensive, Call of Duty Black Ops 4: Blackout, Rainbow Six Siege and more recently Apex Legends, Minecraft and Battalion 1944. "
+        android:textAlignment="inherit"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/shroud_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="For more Shroud information"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"/>
+</LinearLayout>
